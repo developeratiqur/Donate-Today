@@ -1,25 +1,25 @@
-body{
-    font-family: 'Inter', sans-serif;
+body {
+    font-family: "Inter", sans-serif;
     margin: 0;
 }
 
-h2{
+h2 {
     line-height: 20px;
 }
-.header-scetion{
+.header-scetion {
     background-image: url(images/main-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:center;
+    background-position: center;
 }
-.top-banner{
+.top-banner {
     padding-top: 100px;
     height: 600px;
     background: linear-gradient(rgba(255, 99, 71, 0.178), rgba(0, 0, 0, 0.795));
     text-align: center;
     color: white;
 }
-.top-banner h1{
+.top-banner h1 {
     font-weight: 700;
     font-size: 68px;
     margin-bottom: 25px;
@@ -32,9 +32,9 @@ h2{
 }
 .btn {
     text-decoration: none;
-    background: #FF5959;
+    background: #ff5959;
     border-radius: 5px;
-    
+
     padding: 14px;
     color: white;
 }
@@ -46,9 +46,7 @@ h2{
     line-height: 25px;
 }
 
-
-
-.donate-scetion{
+.donate-scetion {
     margin-top: 150px;
     text-align: center;
 }
@@ -56,114 +54,112 @@ h2{
 .donate-process {
     margin-bottom: 40px;
 }
-.donate-process h2{
+.donate-process h2 {
     font-size: 60px;
 }
 .donate-box {
     display: inline-block;
     width: 135px;
-    background: #FAFAFA;
+    background: #fafafa;
     border-radius: 5px;
     padding: 20px;
     margin-left: 10px;
 }
-.donate-ammount{
+.donate-ammount {
     color: #707070;
     text-align: center;
     font-size: 30px;
     font-weight: 700;
 }
 
-#recommended-box{
-    border: 2px solid #FF5959;
-    background: #FFEEEE;
-    color: #FF5959;
+#recommended-box {
+    border: 2px solid #ff5959;
+    background: #ffeeee;
+    color: #ff5959;
 }
 
-    input#custom-ammount {
-        width: 50%;
-        padding: 20px;
-        border: none;
-        border-bottom: 2px solid #DADADA;
-        text-align: center;
-        font-size: 20px;
-    }
+input#custom-ammount {
+    width: 50%;
+    padding: 20px;
+    border: none;
+    border-bottom: 2px solid #dadada;
+    text-align: center;
+    font-size: 20px;
+}
 
-    input#custom-ammount:focus{
-        outline: none;
-    }
+input#custom-ammount:focus {
+    outline: none;
+}
 
-    .btn-block{
-        justify-content:center;
-        margin-top: 50px;
-    }   
+.btn-block {
+    justify-content: center;
+    margin-top: 50px;
+}
 
-.donate-plan{
+.donate-plan {
     margin-top: 150px;
     text-align: center;
 }
 
-.donate-plan h2{
+.donate-plan h2 {
     font-size: 45px;
     font-weight: 700;
-
 }
-.donate-plan-box{
+.donate-plan-box {
     margin-top: 50px;
     display: flex;
     justify-content: center;
     text-align: left;
 }
 
-.dpi-color1{
+.dpi-color1 {
     background: #edf5f6;
 }
-.dpi-color2{
+.dpi-color2 {
     background: #ffeeee;
 }
-.dpi-color3{
+.dpi-color3 {
     background: #fff4d6;
 }
 
-.donate-plan-item{
+.donate-plan-item {
     margin-left: 15px;
     width: 360px;
     border-radius: 5px;
     padding: 60px 20px;
 }
 
-.donate-plan-item h4{
+.donate-plan-item h4 {
     font-size: 24px;
 }
 
-
-.testimonials{
+.testimonials {
     margin-top: 150px;
     text-align: center;
 }
 
-.testimonials h2{
+.testimonials h2 {
     font-size: 45px;
-font-weight: 700;
+    font-weight: 700;
 }
 
 .singel-testimonials {
     width: 800px;
     background-color: #fafafa;
     color: black;
-    padding:22px 200px;
+    padding: 22px 200px;
     margin: auto;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
-
-.singel-testimonials h5{
-    font-family: 'Inter', sans-serif;
-   font-size:  16px;
+.singel-testimonials h3 {
+    font-style: italic;
 }
-.singel-testimonials p{
-    
-     font-size: 11px;
-    
+.singel-testimonials h5 {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+}
+.singel-testimonials p {
+    font-size: 11px;
 }
 
 .singel-testimonials li {
@@ -172,66 +168,61 @@ font-weight: 700;
     font-size: 61px;
     color: #989fa2;
 }
-#selected-testimonials{
+#selected-testimonials {
     color: black;
 }
 
-
-.my-updates{
+.my-updates {
     margin-top: 150px;
     text-align: center;
 }
 
-.my-updates h2{
-font-size: 45px;
-font-weight: 700;
-
+.my-updates h2 {
+    font-size: 45px;
+    font-weight: 700;
 }
 .newslatter {
     width: 800px;
-    background: #FFF4D6;
+    background: #fff4d6;
     display: block;
     margin: auto;
     padding: 96px;
     margin-top: 30px;
-    
 }
 
 #newslatter-field {
     width: 200px;
     padding: 15px;
-    background: #D9D9D9;
+    background: #d9d9d9;
     border-radius: 5px;
     border: none;
 }
 
-
 .btn-newslatter {
     margin-left: -7px;
     text-decoration: none;
-    background: #FF5959;
+    background: #ff5959;
     border-radius: 5px;
     padding: 12px;
     color: white;
 }
 
-
-
-
-.footer{
+.footer {
     background-color: black;
     text-align: center;
-    padding-bottom:100px ;
-    padding-top:40px ;
+    padding-bottom: 100px;
+    padding-top: 40px;
     margin-top: 100px;
 }
-.footer h3{
-    font-family: 'Lobster', cursive;
+.footer h3 {
+    font-family: "Lobster", cursive;
     letter-spacing: 0.5px;
-color: #FF5959;
-font-size: 36px;
+    color: #ff5959;
+    font-size: 36px;
 }
 
-.footer p{
-    color: #D9DBE1;
+.footer p {
+    color: #d9dbe1;
 }
+
+/* Happy Coding. */
