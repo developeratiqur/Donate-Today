@@ -2,6 +2,10 @@ body{
     font-family: 'Inter', sans-serif;
     margin: 0;
 }
+
+h2{
+    line-height: 20px;
+}
 .header-scetion{
     background-image: url(images/main-bg.jpg);
     background-repeat: no-repeat;
@@ -10,14 +14,15 @@ body{
 }
 .top-banner{
     padding-top: 100px;
-    height: 500px;
-    background: linear-gradient(rgba(255, 99, 71, 0.274), rgba(0, 0, 0, 0.795));
+    height: 600px;
+    background: linear-gradient(rgba(255, 99, 71, 0.178), rgba(0, 0, 0, 0.795));
     text-align: center;
     color: white;
 }
 .top-banner h1{
     font-weight: 700;
-    font-size: 65px;
+    font-size: 68px;
+    margin-bottom: 25px;
 }
 .top-banner p {
     font-weight: 400;
@@ -34,9 +39,17 @@ body{
     color: white;
 }
 
+.p-width {
+    width: 800px;
+    margin: auto;
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+
+
 
 .donate-scetion{
-    
+    margin-top: 150px;
     text-align: center;
 }
 
@@ -86,7 +99,7 @@ body{
     }   
 
 .donate-plan{
-    margin-top: 100px;
+    margin-top: 150px;
     text-align: center;
 }
 
@@ -125,7 +138,7 @@ body{
 
 
 .testimonials{
-    margin-top: 100px;
+    margin-top: 150px;
     text-align: center;
 }
 
@@ -135,15 +148,37 @@ font-weight: 700;
 }
 
 .singel-testimonials {
-    width: 500px;
-    background-color: #707070;
-    color: #FAFAFA;
-    padding: 20px 115px;
+    width: 800px;
+    background-color: #fafafa;
+    color: black;
+    padding:22px 200px;
     margin: auto;
+    font-family: 'Poppins', sans-serif;
 }
 
+.singel-testimonials h5{
+    font-family: 'Inter', sans-serif;
+   font-size:  16px;
+}
+.singel-testimonials p{
+    
+     font-size: 11px;
+    
+}
+
+.singel-testimonials li {
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 61px;
+    color: #989fa2;
+}
+#selected-testimonials{
+    color: black;
+}
+
+
 .my-updates{
-    margin-top: 100px;
+    margin-top: 150px;
     text-align: center;
 }
 
