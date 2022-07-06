@@ -15,7 +15,7 @@ body{
     text-align: center;
     color: white;
 }
-.top-banner h2{
+.top-banner h1{
     font-weight: 700;
     font-size: 65px;
 }
@@ -116,7 +116,30 @@ body{
     margin-left: 15px;
     width: 360px;
     border-radius: 5px;
-    padding: 20px;
+    padding: 60px 20px;
+}
+
+.donate-plan-item h4{
+    font-size: 24px;
+}
+
+
+.testimonials{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.testimonials h2{
+    font-size: 45px;
+font-weight: 700;
+}
+
+.singel-testimonials {
+    width: 500px;
+    background-color: #707070;
+    color: #FAFAFA;
+    padding: 20px 115px;
+    margin: auto;
 }
 
 .my-updates{
@@ -164,7 +187,7 @@ font-weight: 700;
     background-color: black;
     text-align: center;
     padding-bottom:100px ;
-    padding-top:50px ;
+    padding-top:40px ;
     margin-top: 100px;
 }
 .footer h3{
